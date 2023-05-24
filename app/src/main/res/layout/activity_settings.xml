@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/setThemeTV"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Set Theme"
+        android:background="@color/white"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="2dp"
+        android:gravity="center"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolPinkTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_circle"
+            android:tint="@color/cool_pink"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolGreenTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_circle"
+            android:tint="@color/cool_green"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/coolBlueTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_circle"
+            android:tint="@color/cool_blue"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/purpleTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_circle"
+            android:tint="@color/purple_500"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/blackTheme"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_circle"
+            android:tint="@color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:paddingHorizontal="16dp"
+        android:layout_marginVertical="2dp">
+
+        <TextView
+            android:id="@+id/sortByTV"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:text="Sort By"
+            android:background="@color/white"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:gravity="start|center"
+            android:paddingStart="5dp"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/sortBtn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@drawable/ic_sort"
+            android:tint="@color/cool_pink" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/versionName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Version Name"
+        android:background="@color/white"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:padding="16dp" />
+
+</LinearLayout>

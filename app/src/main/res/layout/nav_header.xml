@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@color/cool_pink"
+    android:orientation="vertical"
+    android:layout_marginTop="50dp">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:paddingTop="2dp"
+        android:src="@drawable/img_sangam"
+        android:gravity="start"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:text="Dive deep into music..."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"/>
+
+</LinearLayout>
